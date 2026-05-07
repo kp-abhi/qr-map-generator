@@ -41,8 +41,8 @@ flutter pub get
 # Mobile
 flutter run
 
-# Web (uses CanvasKit renderer for better QR rendering)
-flutter run -d chrome --web-renderer canvaskit
+# Web (CanvasKit renderer configured in index.html)
+flutter run -d chrome
 ```
 
 ## Project Structure
